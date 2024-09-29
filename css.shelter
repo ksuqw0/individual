@@ -1,0 +1,210 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f2ff;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+ 
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #a1c982;
+    color: white;
+    height: 100px;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+    background-color: #81b266;
+    color: white;
+}
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+    margin-right: 10px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.nav a:hover{
+    background-color:#6c914c;
+}
+.wall{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 250px);
+    margin-left: 80px;
+    column-gap: 25px;
+ 
+}
+.homeforpets{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13px;
+}
+.imghome{
+    height: 150px;
+    width: 170px;
+}
+.helper1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.pet1{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a1c982;
+    color: white;
+    width: 230px;
+    height: 230px;
+    gap: 5px;
+    border-radius: 10px;
+}
+.pic1{
+    width: 150px;
+    height: 170px;
+}
+.peterbuy{
+    height: 30px;
+    width: 150px;
+    background-color: #81b266;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+}
+.peterbuy:hover{
+    background-color: #6c914c;
+}
+.helper2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+ 
+}
+.pet2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a1c982;
+    color: white;
+    width: 230px;
+    height: 230px;
+    gap: 5px;
+    border-radius: 10px;
+}
+.pic2{
+    width: 150px;
+    height: 170px;
+}
+.helper3{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+.pet3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a1c982;
+    color: white;
+    width: 230px;
+    height: 230px;
+    gap: 5px;
+    border-radius: 10px;
+}
+.pic3{
+    width: 150px;
+    height: 170px;
+}
+.helper4{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+.pet4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a1c982;
+    color: white;
+    width: 230px;
+    height: 230px;
+    gap: 5px;
+    border-radius: 10px;
+}
+.pic4{
+    width: 150px;
+    height: 170px;
+}
+.helper5{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+.pet5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a1c982;
+    color: white;
+    width: 230px;
+    height: 230px;
+    gap: 5px;
+    border-radius: 10px;
+}
+.pic5{
+    width: 150px;
+    height: 170px;
+}
+.e{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 250px);
+    row-gap: 15px;
+    column-gap: 30px;
+}
+.f{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 250px;
+}
