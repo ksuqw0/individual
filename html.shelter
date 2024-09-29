@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=c, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Передержка и поиск животных</title>
+ 
+</head>
+<body>
+    <header class="header">
+       <h1>Передержка и поиск животных</h1>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Приютить животное</a></li>
+            <li><a href="#">Передержка</a></li>
+        </ul>
+    </nav>
+    <selection class="homeforpets">
+        <h3>Приютите животное</h3>
+        <p>Для каждого человека важно иметь лучшего друга. Самые верные друзья для человека - питомцы. Эти маленькие пушистики будут ждать вас дома и радостно встречать. Дли них вы всегда будете самыми лучшими существами в жизни, которых они любят до безпамятсва.</p>
+        <p>Каждое животное заслуживает лучшей жизни, которую им можете дать только вы!</p>
+        <img src="https://i.pinimg.com/736x/7b/56/b4/7b56b4035ed36074647daeb2fc2b8c71.jpg" class="imghome">
+    </selection>
+    <div class="wall">
+        <div class="helper1">
+            <div class="pet1">
+                <div class="name">Кот Рыжик</div>
+                <img src="https://i.pinimg.com/736x/02/25/2e/02252e85fef76ab07d9536d39056cead.jpg" class="pic1">
+                <button class="peterbuy">Приютить!</button>
+            </div>
+        </div>
+        <div class="e">
+            <div class="healper2">
+                <div class="pet2">
+                    <div class="name"> Пес Бобик</div>
+                    <img src="https://i.pinimg.com/736x/7c/5a/54/7c5a544bd1326e94210c8633768f2fe8.jpg" class="pic2">
+                    <button class="peterbuy">Приютить!</button>
+                </div>
+            </div>
+            <div class="healper3">
+                <div class="pet3">
+                    <div class="name"> Кот Маруся</div>
+                    <img src="https://i.pinimg.com/originals/47/24/48/47244836fb381e8dfce39b3433b909f8.jpg" class="pic3">
+                    <button class="peterbuy">Приютить!</button>
+                </div>
+            </div>
+            <div class="healper4">
+                <div class="pet4">
+                    <div class="name">Хомяк Хома</div>
+                    <img src="https://a.d-cd.net/cL1NL87zFKHkwO_OxbeqQIupoNE-1920.jpg" class="pic4">
+                    <button class="peterbuy">Приютить!</button>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
